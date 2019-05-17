@@ -1,0 +1,1 @@
+/var/www/html/Spe/Eval/WP-Eval-oAgency-Foz3/content/plugins/query-monitor/wp-content/db.php

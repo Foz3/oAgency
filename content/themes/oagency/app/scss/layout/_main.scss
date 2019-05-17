@@ -1,0 +1,85 @@
+.masonry { /* Masonry container */
+    column-count: 3;
+    column-gap: 1.5em;
+    margin: 1.5em;
+    padding: 0 10em;
+    font-size: .85em;
+    
+    
+}
+.item {
+    display: inline-block;
+    background: #fff;
+    padding-top: 1em;
+    margin: 0 0 1.5em;
+    width: 100%;
+    box-sizing: border-box;
+    border-top: solid 2px lightgrey;
+
+    & h3 {
+        font-family: $font-title;
+        font-size: 2.5em;
+        color: $color-primary;
+    }
+    
+}
+.item img{max-width:100%;
+    padding-bottom: 1em;
+}
+
+.banner {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    height: 15em;
+    align-items: center;
+    color: $color-secondary;
+
+        &__title {
+            font-family: $font-title;
+            font-size: 1.8em;
+            padding: 1em;
+        }
+        &__content {
+            font-weight: bold;
+            padding: 0 0 1.5em 0;
+        }
+        &__button_item{
+            color: $color-secondary;
+            font-weight: bold;
+        } 
+}
+.widget {
+    background-color: $back-color-light;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: $color-primary;
+
+    &__title {
+        padding: 4em;
+        
+    }
+
+    &__pages{
+        padding: 4em;
+    }
+
+    &__team{
+        padding: 4em;
+    }
+
+    &__archive{
+        padding: 4em;
+    }
+}
+
+.widget h4 {
+    font-family: $font-title;
+}
+
+.widget h3 {
+    font-weight: bold;
+}

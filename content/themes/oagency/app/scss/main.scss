@@ -1,0 +1,26 @@
+@charset 'UTF-8';
+
+// 1. Abstracts
+@import 'abstracts/variables',
+        'abstracts/mixins';
+
+// 2. Vendors
+$fa-font-path: '~font-awesome/fonts';
+@import '~font-awesome/scss/font-awesome';
+@import '~bootstrap/scss/bootstrap';
+
+// 3. Base
+@import 'base/fonts',
+        'base/typography';
+
+// 4. Layout
+@import 'layout/main',
+        'layout/header',
+        'layout/footer';
+
+// 5. Components
+@import 'components/carousel';
+
+// 6. Pages
+
+// 7. Themes

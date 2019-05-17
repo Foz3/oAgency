@@ -1,0 +1,12 @@
+.DS_Store
+
+/vendor 
+/wp
+
+/wp-config.php
+
+content/plugins/*
+
+content/themes/twentynineteen
+
+content/languages
